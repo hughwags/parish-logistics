@@ -31,13 +31,29 @@
             font-size: 18px;
             color: #333;
         }
-        .contact {
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            text-align: center;
             margin-top: 20px;
+        }
+        .contact {
+            width: 45%;
             font-weight: bold;
+            text-align: center;
+        }
+        .contact p {
+            margin: 5px 0;
         }
         .contact a {
             color: #2d4a27;
             text-decoration: none;
+        }
+        .contact-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
         }
     </style>
 </head>
@@ -50,13 +66,20 @@
         Additionally, we offer brokerage services for various loads, excluding oversized and hazmat items.</p>
         <p>Our experienced drivers, industry-leading safety culture, and commitment to on-time delivery set us apart.</p>
         <p>We proudly serve the entire U.S., focusing on efficiency and customer satisfaction.</p>
-        <div class="contact">
-            <p>Contact Us:</p>
-            <p>Carey Smith</p>
-            <p>Phone: <a href="tel:9853733894">985-373-3894</a></p>
-            <p>Email: <a href="mailto:carey@parish-logistics.com">carey@parish-logistics.com</a></p>
-            <p>Follow us on <a href="https://www.linkedin.com/company/parish-specialty-services-llc/" target="_blank">LinkedIn</a></p>
+        <h2 class="contact-header">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact">
+                <p>Carey Smith</p>
+                <p>Phone: <a href="tel:9853733894">985-373-3894</a></p>
+                <p>Email: <a href="mailto:carey@parish-logistics.com">carey@parish-logistics.com</a></p>
+            </div>
+            <div class="contact">
+                <p>Hugh Wagner</p>
+                <p>Phone: <a href="tel:5046165253">504-616-5253</a></p>
+                <p>Email: <a href="mailto:hugh@parish-logistics.com">hugh@parish-logistics.com</a></p>
+            </div>
         </div>
+        <p style="margin-top: 20px;"><strong>Follow us on <a href="https://www.linkedin.com/company/parish-specialty-services-llc/" target="_blank">LinkedIn</a></strong></p>
     </div>
 </body>
 </html>
